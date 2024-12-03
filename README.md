@@ -6,7 +6,7 @@ The task was implemented in R using the following steps:
 Data Preparation: Transformed the provided frequency table into a tidy data frame using basic data manipulation functions.
 Web Scraping: Collected additional rank and pay grade data to augment the transformed dataset.
 Challenges: Encountered challenges in ensuring the proper separation of values and maintaining simplicity. Resolved using manual iteration and precise column transformations.
-'''r
+```r
 female_table <- soldiers_data %>%
   filter(Gender == "Female") %>%
   tabyl(Rank, Branch) %>%
@@ -15,5 +15,5 @@ female_table <- soldiers_data %>%
   adorn_pct_formatting(digits = 2) %>%
   adorn_ns(position = "front") %>%
   adorn_title("combined")
-'''
+```
 
