@@ -23,3 +23,6 @@ female_table <- soldiers_data %>%
 The final analysis resulted in a tidy data frame with 240 rows and 5 columns, accurately representing individual soldier records. Below is an example visualization showcasing the distribution of female soldiers by rank:
 
 <img width="699" alt="image" src="https://github.com/user-attachments/assets/8f30dc07-3d1f-4128-8cb4-3e9810d55211">
+
+# Contact
+For any inquiries, feel free to reach me at pap5520@psu.edu.
