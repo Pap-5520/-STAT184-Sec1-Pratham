@@ -4,7 +4,9 @@ This repository focuses on transforming Armed Forces Active Duty data to analyze
 The task was implemented in R using the following steps:
 
 Data Preparation: Transformed the provided frequency table into a tidy data frame using basic data manipulation functions.
+
 Web Scraping: Collected additional rank and pay grade data to augment the transformed dataset.
+
 Challenges: Encountered challenges in ensuring the proper separation of values and maintaining simplicity. Resolved using manual iteration and precise column transformations.
 ```r
 female_table <- soldiers_data %>%
